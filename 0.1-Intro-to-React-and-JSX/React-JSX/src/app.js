@@ -20,6 +20,7 @@ const headerElement = (
 
         <main>
             <h1>git test</h1>
+            <h2>git test 2</h2>
         </main>
     </div>
 );

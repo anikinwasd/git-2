@@ -38,6 +38,11 @@ var headerElement = React.createElement(
             "h1",
             null,
             "git test"
+        ),
+        React.createElement(
+            "h2",
+            null,
+            "git test 2"
         )
     )
 );
