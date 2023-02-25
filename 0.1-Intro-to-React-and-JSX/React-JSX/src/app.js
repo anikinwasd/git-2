@@ -9,7 +9,6 @@ const root = ReactDOM.createRoot(rootElement);
 // console.log(JSON.parse(JSON.stringify(headerElement)));
 
 // Use JSX Syntax
-
 const headerElement = (
     <div>
         <header>
@@ -18,7 +17,12 @@ const headerElement = (
         </header>
 
         <button>click</button>
+
+        <main>
+            <h1>git test</h1>
+        </main>
     </div>
 );
+
 
 root.render(headerElement);

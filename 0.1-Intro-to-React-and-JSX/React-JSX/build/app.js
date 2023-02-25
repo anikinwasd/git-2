@@ -9,7 +9,6 @@ var root = ReactDOM.createRoot(rootElement);
 // console.log(JSON.parse(JSON.stringify(headerElement)));
 
 // Use JSX Syntax
-
 var headerElement = React.createElement(
     "div",
     null,
@@ -31,6 +30,15 @@ var headerElement = React.createElement(
         "button",
         null,
         "click"
+    ),
+    React.createElement(
+        "main",
+        null,
+        React.createElement(
+            "h1",
+            null,
+            "git test"
+        )
     )
 );
 
